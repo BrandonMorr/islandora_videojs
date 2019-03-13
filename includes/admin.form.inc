@@ -13,7 +13,7 @@ function islandora_videojs_admin($form, &$form_state) {
   $form['islandora_videojs_hls_library'] = array(
     '#type' => 'checkbox',
     '#title' => t('Videojs-contrib-hls library'),
-    '#description' => t('Include the videojs-contrib-hls library js, videojs.contrib-hls.js?'),
+    '#description' => t('Include the videojs-contrib-hls library js, videojs-contrib-hls.js?'),
     '#default_value' => variable_get('islandora_videojs_hls_library', FALSE),
     '#element_validate' => array('islandora_videojs_admin_islandora_videojs_hls_library_validate'),
   );
